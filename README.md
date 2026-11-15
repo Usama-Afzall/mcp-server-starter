@@ -93,6 +93,6 @@ Check the current Shopify Admin API documentation for exact field names and API 
 
 ## License
 
-MIT. See `LICENSE`.
+Source-available, not open source. You may read and evaluate this code, but commercial or production use requires a written licence from Usama Afzall. See `LICENSE` and https://usama.websiteprism.com/contact.
 
 Need this customized? https://usama.websiteprism.com/contact
