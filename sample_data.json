@@ -1,0 +1,30 @@
+{
+  "_note": "Entirely fictional sample data for demonstration. Not real customers, orders, or products.",
+  "store": "Example Goods Co.",
+  "products": [
+    {"sku": "MUG-001", "title": "Ceramic Camp Mug", "description": "Speckled 350 ml ceramic mug.", "category": "kitchen", "price": 18.0, "stock": 42, "tags": ["mug", "ceramic", "coffee"]},
+    {"sku": "TEA-002", "title": "Loose Leaf Sampler", "description": "Five fictional blends of loose leaf tea.", "category": "grocery", "price": 24.5, "stock": 7, "tags": ["tea", "sampler", "gift"]},
+    {"sku": "BAG-003", "title": "Canvas Tote Bag", "description": "Heavy canvas tote with inside pocket.", "category": "accessories", "price": 22.0, "stock": 31, "tags": ["bag", "tote", "canvas"]},
+    {"sku": "NTB-004", "title": "Dot Grid Notebook", "description": "A5 dot grid notebook, 120 pages.", "category": "stationery", "price": 12.0, "stock": 3, "tags": ["notebook", "paper", "dot grid"]},
+    {"sku": "PEN-005", "title": "Brass Fountain Pen", "description": "Refillable brass pen, medium nib.", "category": "stationery", "price": 48.0, "stock": 15, "tags": ["pen", "brass", "writing"]},
+    {"sku": "CND-006", "title": "Cedar Soy Candle", "description": "Hand-poured candle, 40 hour burn.", "category": "home", "price": 28.0, "stock": 9, "tags": ["candle", "cedar", "soy"]},
+    {"sku": "BTL-007", "title": "Steel Water Bottle", "description": "Insulated 600 ml bottle.", "category": "kitchen", "price": 32.0, "stock": 0, "tags": ["bottle", "steel", "insulated"]},
+    {"sku": "SCF-008", "title": "Wool Scarf", "description": "Soft lambswool scarf in charcoal.", "category": "accessories", "price": 56.0, "stock": 12, "tags": ["scarf", "wool", "winter"]},
+    {"sku": "PLT-009", "title": "Terracotta Plant Pot", "description": "Small drainage pot with saucer.", "category": "home", "price": 14.0, "stock": 58, "tags": ["plant", "pot", "terracotta"]},
+    {"sku": "CRD-010", "title": "Greeting Card Set", "description": "Set of 8 blank cards with envelopes.", "category": "stationery", "price": 16.0, "stock": 5, "tags": ["cards", "paper", "gift"]}
+  ],
+  "orders": [
+    {"id": "ORD-1001", "created_at": "2026-11-02T10:00:00Z", "status": "fulfilled", "customer": {"name": "Alex Example", "email": "alex@example.com"}, "items": [{"sku": "MUG-001", "quantity": 2, "unit_price": 18.0}, {"sku": "TEA-002", "quantity": 1, "unit_price": 24.5}], "currency": "USD", "total": 60.5},
+    {"id": "ORD-1002", "created_at": "2026-11-03T10:00:00Z", "status": "fulfilled", "customer": {"name": "Sam Sample", "email": "sam@example.com"}, "items": [{"sku": "PEN-005", "quantity": 1, "unit_price": 48.0}], "currency": "USD", "total": 48.0},
+    {"id": "ORD-1003", "created_at": "2026-11-04T10:00:00Z", "status": "refunded", "customer": {"name": "Jordan Testperson", "email": "jordan@example.com"}, "items": [{"sku": "BTL-007", "quantity": 1, "unit_price": 32.0}], "currency": "USD", "total": 32.0},
+    {"id": "ORD-1004", "created_at": "2026-11-06T10:00:00Z", "status": "fulfilled", "customer": {"name": "Casey Demo", "email": "casey@example.com"}, "items": [{"sku": "SCF-008", "quantity": 1, "unit_price": 56.0}, {"sku": "CRD-010", "quantity": 2, "unit_price": 16.0}], "currency": "USD", "total": 88.0},
+    {"id": "ORD-1005", "created_at": "2026-11-08T10:00:00Z", "status": "cancelled", "customer": {"name": "Riley Placeholder", "email": "riley@example.com"}, "items": [{"sku": "CND-006", "quantity": 3, "unit_price": 28.0}], "currency": "USD", "total": 84.0},
+    {"id": "ORD-1006", "created_at": "2026-11-09T10:00:00Z", "status": "fulfilled", "customer": {"name": "Morgan Fictional", "email": "morgan@example.com"}, "items": [{"sku": "NTB-004", "quantity": 4, "unit_price": 12.0}], "currency": "USD", "total": 48.0},
+    {"id": "ORD-1007", "created_at": "2026-11-10T10:00:00Z", "status": "paid", "customer": {"name": "Taylor Mockwell", "email": "taylor@example.com"}, "items": [{"sku": "BAG-003", "quantity": 1, "unit_price": 22.0}, {"sku": "MUG-001", "quantity": 1, "unit_price": 18.0}], "currency": "USD", "total": 40.0},
+    {"id": "ORD-1008", "created_at": "2026-11-11T10:00:00Z", "status": "paid", "customer": {"name": "Jamie Notreal", "email": "jamie@example.com"}, "items": [{"sku": "TEA-002", "quantity": 3, "unit_price": 24.5}], "currency": "USD", "total": 73.5},
+    {"id": "ORD-1009", "created_at": "2026-11-12T10:00:00Z", "status": "paid", "customer": {"name": "Drew Imaginary", "email": "drew@example.com"}, "items": [{"sku": "PLT-009", "quantity": 6, "unit_price": 14.0}, {"sku": "CND-006", "quantity": 1, "unit_price": 28.0}], "currency": "USD", "total": 112.0},
+    {"id": "ORD-1010", "created_at": "2026-11-13T10:00:00Z", "status": "pending", "customer": {"name": "Avery Sampleton", "email": "avery@example.com"}, "items": [{"sku": "SCF-008", "quantity": 2, "unit_price": 56.0}], "currency": "USD", "total": 112.0},
+    {"id": "ORD-1011", "created_at": "2026-11-14T10:00:00Z", "status": "pending", "customer": {"name": "Quinn Exemplar", "email": "quinn@example.com"}, "items": [{"sku": "PEN-005", "quantity": 1, "unit_price": 48.0}, {"sku": "NTB-004", "quantity": 2, "unit_price": 12.0}], "currency": "USD", "total": 72.0},
+    {"id": "ORD-1012", "created_at": "2026-11-15T10:00:00Z", "status": "paid", "customer": {"name": "Blake Dummydata", "email": "blake@example.com"}, "items": [{"sku": "BTL-007", "quantity": 2, "unit_price": 32.0}, {"sku": "CRD-010", "quantity": 1, "unit_price": 16.0}], "currency": "USD", "total": 80.0}
+  ]
+}

@@ -1,0 +1,2 @@
+# Tested with mcp 1.30.0 and mcp 2.3.0 (Python 3.13).
+mcp>=1.30.0
